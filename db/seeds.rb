@@ -1,4 +1,4 @@
-User.create(username: 'joe', email: 'joe@joe.com', password_digest: 'pw', description: Faker::Hipster.paragraph)
+User.create(username: 'joe', email: 'joe@joe.com', password: 'pw', description: Faker::Hipster.paragraph)
 
 # user_amount         = 6
 # post_amount         = 69
